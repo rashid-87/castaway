@@ -1,0 +1,21 @@
+.gotop {
+  position: fixed;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  color: var(--white);
+  background: var(--bg-button);
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 8px;
+  transition: 2s;
+  display: none;
+}
+.gotop__show {
+  display: block;
+}
+.gotop:hover {
+  color: var(--black);
+  transition: 1s;
+}

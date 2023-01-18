@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+}
+body {
+  background: var(--bg-black);
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+:root {
+  --white: #fff;
+  --black: #000;
+  --bg-black: #191919;
+  --bg-button: #118da8;
+  --color-tesx: rgba(255, 255, 255, 0.7);
+}
+.blok__btn {
+  padding: 12px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  background-color: var(--bg-button);
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--white);
+  transition: 2s;
+}
+.blok__btn:hover {
+  background: #71d0e6;
+  color: #000;
+  transition: 2s;
+}
